@@ -379,7 +379,7 @@ const client = new Discord.Client();
 // Here we load the config.json file that contains our token and our prefix values. 
 const config = { 
   "token"  : "NDcyMTQwNTk5MTU2Mjc3MjQ4.DjvFvQ.QttM4lwyq9T5tBd2TVo6zFYE8OA",
-  "prefix" : "&"
+  "prefix" : "?"
 };
 
 client.on("ready", () => {
@@ -427,7 +427,7 @@ client.on("message", message => {
   
   // Let's go with a few common example commands! Feel free to delete or change those.
   
-  if(command === "datalore") 
+  if(command === "info") 
   {
 	let searchParam = args.join(" ").toLowerCase();
 	
@@ -454,7 +454,7 @@ client.on("message", message => {
   
   if(command === "help")
   {
-	  message.channel.send("Hi I'm Datalore! I can give you information about 20XX Augs and Repros, just use " + config.prefix + "datalore <Aug Name>");
+	  message.channel.send("Hi I'm Datalore! I can give you information about 20XX Augs and Repros, just use " + config.prefix + "info <Aug Name>");
   }
   
 });
