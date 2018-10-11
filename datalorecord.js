@@ -366,7 +366,7 @@ const dataloreInfo = {
 	"owlhawk, the wise":"Owlhawk, the Wise: Set Bonus: All powers become Juiced Powers, with special additional effects.",
 	"oxjack's ken":"Oxjack's Ken: Core (Helm): Dashbolt active! Dashing fires a projectile that pierces. (Damage = SPD x 3 + 15.) Projectiles ignore iframes. \nCranial Resonator Effect: Fires 3 projectiles.",
 	"oxjack's guile":"Oxjack's Guile: Core (Body): Dashing grants a shield! When dashing a shield appears in the direction you dash, blocking projectiles. \nCase Resonator Effect: When shield hits a projectile it relaliates with 5 small projectiles.",
-	"oxjack's fury":"Oxjack's Fury: Core (Arms): Charge time reduced. Charging attack time reduced by 40%. Grants +2 ATK and +2 PWR while equipped. Does not affect Quint Laser charging. \nForce Resonator Effect: Increases the reduction in charging time.",
+	"oxjack's fury":"Oxjack's Fury: Core (Arms): Charge time reduced by 25%. +2 ATK/PWR while equipped. Does not affect Quint Laser charging. \nForce Resonator Effect: Increases the reduction in charging time.",
 	"oxjack's blitz":"Oxjack's Blitz: Core (Legs): 4-way dash in midair! Cannot change direction during dash. \nKinetic Resonator Effect: Grants an extra dash.",
 	"oxjack, the flash":"Oxjack, the Flash: Set Bonus: Grants two 4-way dashes in midair!"
 };
